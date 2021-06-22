@@ -4,8 +4,8 @@ body { margin: 0; }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(0, 102, 204, 1); }
-a:hover { color: rgba(0, 51, 153, 1); }
+a { color: rgb(24, 73, 122); }
+a:hover { color: rgb(126, 162, 235); }
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -25,16 +25,16 @@ img {
     display: inline-block;
     padding: 1em 2em;
     text-decoration: none;
-    background-color: rgba(0, 102, 204, .8);
+    background-color: rgba(24, 73, 122, .8);
     color: white;
     border-radius: 5px;
 }
 .button:hover {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgba(24, 73, 122, 1);
     color: white;
 }
 .button.dark {
-    color: rgba(0, 102, 204, 1);
+    color: rgba(24, 73, 122, 1);
     background-color: rgba(255, 255, 255,.8);
 }
 .button.dark:hover {
@@ -44,7 +44,7 @@ img {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgba(24, 73, 122, 1);
     color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
@@ -53,8 +53,8 @@ header {
 }
 
 header a {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
+    color: rgba(255, 255, 255, 0.767);
+    text-decoration: black;
 }
 
 header a:hover {
@@ -88,16 +88,16 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgba(24, 73, 122, 1);
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 6em 1em;
 }
 
 .hero h2 {
     font-size: 6em;
     line-height: 1;
-    text-transform: uppercase;
+    text-transform: auto;
     margin: 0 auto;
 }
 
